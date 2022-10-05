@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Inria Serif';
+}
+.menu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Inria Serif';
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner{
+    background-color: #7d7d7d;
+    height: 500px;
+}
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+}
+.trab{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    font-size: 32px;
+    color: white;
+}
+
+.horario{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.texto{
+    font-size: 64px;
+    padding-top:40px ;
+}
+.formulario{
+    background-color: #EFEFEF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    
+}
+.formulario input{
+    margin: 20px;
+    text-decoration: none;
+    width: 140px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.formulario button{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    background-color: #7d7d7d;
+    margin-left: 123px;
+}
+footer{
+    background-color: #7d7d7d;
+    padding: 50px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.rodape div{
+    font-size: 24px;
+    font-family: 'Inria Sans';
+    color: #EFEFEF;
+}
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
